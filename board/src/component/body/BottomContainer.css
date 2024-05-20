@@ -1,0 +1,37 @@
+.bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .bottom-item {
+    width: 30%;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-item h2 {
+    margin-top: 0;
+  }
+  
+  .bottom-item p {
+    margin: 10px 0 0 0;
+  }
+  
+  .post-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .post-info span {
+    margin-right: 10px;
+  }
+  
